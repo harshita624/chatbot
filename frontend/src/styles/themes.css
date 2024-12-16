@@ -1,0 +1,34 @@
+/* Light Theme (Default) */
+.theme-light {
+    --background-primary: #ffffff;
+    --background-secondary: #f4f7f6;
+    --text-primary: #2c3e50;
+    --text-secondary: #7f8c8d;
+    --accent-color: #3498db;
+  }
+  
+  /* Dark Theme */
+  .theme-dark {
+    --background-primary: #121212;
+    --background-secondary: #1e1e1e;
+    --text-primary: #e0e0e0;
+    --text-secondary: #b0b0b0;
+    --accent-color: #bb86fc;
+  }
+  
+  /* Theme Transitions */
+  body {
+    transition: 
+      background-color 0.3s ease,
+      color 0.3s ease;
+  }
+  
+  .theme-dark {
+    background-color: var(--background-primary);
+    color: var(--text-primary);
+  }
+  
+  .theme-light {
+    background-color: var(--background-primary);
+    color: var(--text-primary);
+  }
